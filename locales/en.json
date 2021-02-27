@@ -10,7 +10,7 @@
   },
   "help": {
     "description": "Display all commands and descriptions",
-    "embedTitle": "{botname} Help",
+    "embedTitle": "Haru Help <a:Haru:815090666236805120> ",
     "embedDescription": "List of all commands"
   },
   "invite": {
