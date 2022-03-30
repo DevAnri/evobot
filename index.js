@@ -64,6 +64,13 @@ for (const file of commandFiles) {
   client.commands.set(command.name, command);
 }
 
+client.on("message", async (message)=>{
+  if(message.author.bot)return;
+  if (msg.content.toLowerCase() === "creeper") {
+    msg.reply("aww man!");
+  }
+})
+
 client.on("message", async (message) => {
   if (message.author.bot) return;
   if (!message.guild) return;
