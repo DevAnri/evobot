@@ -66,8 +66,8 @@ for (const file of commandFiles) {
 
 client.on("message", async (message)=>{
   if(message.author.bot)return;
-  if (msg.content.toLowerCase() === "creeper") {
-    msg.reply("aww man!");
+  if (message.content.toLowerCase() === "creeper") {
+    message.reply("aww man!");
   }
 })
 
